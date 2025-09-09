@@ -11,7 +11,7 @@ Un script interactivo y completamente automatizado para configurar tu sistema Li
 
 ### 🚀 **Instalación en Una Línea**
 ```bash
-wget -qO- https://raw.githubusercontent.com/TU-USUARIO/linux-setup-script/main/setup.sh | bash
+wget -qO- https://github.com/juanmahumeniuk/UtilidadLinux.git | bash
 ```
 
 ### 🎯 **23 Opciones Organizadas**
@@ -39,16 +39,16 @@ wget -qO- https://raw.githubusercontent.com/TU-USUARIO/linux-setup-script/main/s
 ### Método 1: Ejecución Directa (Recomendado)
 ```bash
 # Con wget
-wget -qO- https://raw.githubusercontent.com/TU-USUARIO/linux-setup-script/main/setup.sh | bash
+wget -qO- https://github.com/juanmahumeniuk/UtilidadLinux.git | bash
 
 # Con curl
-curl -fsSL https://raw.githubusercontent.com/TU-USUARIO/linux-setup-script/main/setup.sh | bash
+curl -fsSL https://github.com/juanmahumeniuk/UtilidadLinux.git | bash
 ```
 
 ### Método 2: Descarga y Ejecución Local
 ```bash
 # Descargar el script
-wget https://raw.githubusercontent.com/TU-USUARIO/linux-setup-script/main/setup.sh
+wget https://github.com/juanmahumeniuk/UtilidadLinux.git
 
 # Dar permisos de ejecución
 chmod +x setup.sh
@@ -59,8 +59,8 @@ chmod +x setup.sh
 
 ### Método 3: Clonado del Repositorio
 ```bash
-git clone https://github.com/TU-USUARIO/linux-setup-script.git
-cd linux-setup-script
+git https://github.com/juanmahumeniuk/UtilidadLinux.git
+cd UtilidadLinux
 chmod +x setup.sh
 ./setup.sh
 ```
@@ -115,7 +115,7 @@ chmod +x setup.sh
 ### Configuración Completa Automática
 ```bash
 # Ejecutar y seleccionar opción 20
-wget -qO- https://raw.githubusercontent.com/TU-USUARIO/linux-setup-script/main/setup.sh | bash
+wget -qO- https://github.com/juanmahumeniuk/UtilidadLinux.git | bash
 # Luego presionar: 20 + Enter
 ```
 
@@ -159,7 +159,7 @@ wget -qO- https://raw.githubusercontent.com/TU-USUARIO/linux-setup-script/main/s
 ## 📁 Estructura del Proyecto
 
 ```
-linux-setup-script/
+UtilidadLinux/
 ├── setup.sh              # Script principal
 ├── README.md             # Este archivo
 ├── LICENSE               # Licencia MIT
@@ -187,8 +187,8 @@ linux-setup-script/
 ### Desarrollo Local
 ```bash
 # Clonar el repositorio
-git clone https://github.com/TU-USUARIO/linux-setup-script.git
-cd linux-setup-script
+git https://github.com/juanmahumeniuk/UtilidadLinux.git
+cd UtilidadLinux
 
 # Crear rama para nueva funcionalidad
 git checkout -b feature/nueva-funcionalidad
@@ -252,8 +252,8 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ## 📞 Soporte
 
-- 🐛 **Issues**: [GitHub Issues](https://github.com/TU-USUARIO/linux-setup-script/issues)
-- 💬 **Discusiones**: [GitHub Discussions](https://github.com/TU-USUARIO/linux-setup-script/discussions)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/TU-USUARIO/UtilidadLinux/issues)
+- 💬 **Discusiones**: [GitHub Discussions](https://github.com/TU-USUARIO/UtilidadLinux/discussions)
 - 🌐 **Website**: [jotahumesitio.space](https://jotahumesitio.space)
 - 📧 **Email**: tu-email@ejemplo.com
 
@@ -263,7 +263,7 @@ Si este script te ha sido útil, ¡considera darle una estrella ⭐ al repositor
 
 ```bash
 # Compartir en redes sociales
-echo "🐧 ¡Configura tu Linux en minutos! https://github.com/TU-USUARIO/linux-setup-script"
+echo "🐧 ¡Configura tu Linux en minutos! https://github.com/TU-USUARIO/UtilidadLinux"
 ```
 
 ---
