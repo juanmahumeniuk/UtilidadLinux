@@ -43,6 +43,7 @@ wget -qO- https://github.com/juanmahumeniuk/UtilidadLinux.git | bash
 wget https://github.com/juanmahumeniuk/UtilidadLinux.git
 
 # Dar permisos de ejecución
+cd UtilidadLinux
 chmod +x setup.sh
 
 # Ejecutar
@@ -104,12 +105,6 @@ chmod +x setup.sh
 
 ## 🎯 Ejemplos de Uso
 
-### Configuración Completa Automática
-```bash
-# Ejecutar y seleccionar opción 20
-wget -qO- https://github.com/juanmahumeniuk/UtilidadLinux.git | bash
-# Luego presionar: 20 + Enter
-```
 
 ### Solo Aplicaciones de Desarrollo
 ```bash
