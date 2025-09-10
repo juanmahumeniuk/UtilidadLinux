@@ -36,16 +36,8 @@ wget -qO- https://github.com/juanmahumeniuk/UtilidadLinux.git | bash
 
 ## 🚀 Instalación y Uso
 
-### Método 1: Ejecución Directa (Recomendado)
-```bash
-# Con wget
-wget -qO- https://github.com/juanmahumeniuk/UtilidadLinux.git | bash
 
-# Con curl
-curl -fsSL https://github.com/juanmahumeniuk/UtilidadLinux.git | bash
-```
-
-### Método 2: Descarga y Ejecución Local
+### Descarga y Ejecución Local
 ```bash
 # Descargar el script
 wget https://github.com/juanmahumeniuk/UtilidadLinux.git
